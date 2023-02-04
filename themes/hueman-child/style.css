@@ -1,0 +1,330 @@
+/* 
+Theme Name:      hueman-child
+Theme URI:       http://childtheme-generator.com/
+Description:     hueman-child is a child theme of Hueman, created by ChildTheme-Generator.com
+Author:          govind
+Author URI:      http://childtheme-generator.com/
+Template:        hueman
+Version:         1.0.0
+Text Domain:     hueman-child
+*/
+
+
+/*
+    Add your custom styles here
+*/
+body{
+font-family:Cera Pro!important;
+}
+#nav-header .container {
+    padding: 0 65px!important;
+}
+.site-title a img {
+    max-height: 90px;
+}
+
+h1.site-title {
+    padding: 30px 0!important;
+}
+#nav-header.nav-container, #main-header-search .search-expand {
+    background-color: #385395;
+}
+ul#menu-home-1{
+    font-family:Cera Pro!important;
+    font-weight: 900;
+    font-size: 70px;
+}
+#nav-header .nav li a {
+    color: #ffff!important;
+}
+.boxed #page {
+   
+    max-width: 1380px!important;
+    margin: 0 auto;
+}
+
+.benefits-div{
+    width: 1190px;
+}
+#main-fof{
+    display: table;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    background-color:#4e98ed !important;
+    color: #fff;
+    margin-top: 20px;
+
+}
+
+.fof{
+	  display: table-cell;
+	  vertical-align: middle;
+     
+}
+
+.fof h1{
+	  font-size: 108px;
+	  display: inline-block;
+	  padding-right: 12px;
+	  animation: type .5s alternate infinite;
+      color: #fff;
+
+}
+.new-site-image {
+    width: 100%;
+    height: auto!important;
+}
+
+.main{
+    margin-top: 10px;
+}
+[role=search].search-form input[type=submit] {
+    line-height: 39px;
+    display: none;
+    width: 100%;
+}
+/* 
+.nav-wrap{
+    border-bottom: 4px solid #4e98ed ;
+    border-top: 4px solid rgb(238, 169, 20);
+}
+
+.nav-wrap ul li a:hover {
+    background: #4e98ed !important;
+}
+
+.nav-wrap ul li {
+    border-right: 1px solid #fff !important;
+    padding: 0 0 0 1px;
+}
+.nav li:last-child {
+    border-right:none!important;
+}
+#nav-header .nav li.current-menu-item {
+    color: #fff;
+    background: #4e98ed !important;
+} */
+.boxed {
+    padding: 0!important;
+}
+.page-title{
+    display: none!important;
+}
+.hu-pad {
+    padding: 4px 30px 20px!important;
+}
+.home .breadcrumb_last{
+    display: none;
+}
+#nav-header{
+    display: block!important;
+    color: #FFF;
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+/*.nav-wrap ul li a:active{
+    background: #4e98ed !important;
+}*/
+.single .post-title {
+    font-size: 1.62em!important;
+    letter-spacing: 0px!important;
+    line-height: 1.5em!important;
+}
+.entry {
+    font-size: 1.125em;
+    line-height: 24px!important;
+}
+/*custom widget css*/
+.wcssc_copy span, .wcssc_remove span, .wcssc_sort span {
+    vertical-align: text-bottom;
+    margin: 0;
+    padding: 0;
+}
+.wcssc_copy, .wcssc_remove, .wcssc_sort {
+    text-decoration: none;
+}
+.wcssc_sort {
+    display: none;
+    cursor: move;
+}
+.wcssc_sort_fixed .wcssc_sort {
+    visibility: hidden;
+}
+
+.wcssc_sortable .wcssc_drop_placeholder {
+    background: #e5e5e5;
+    height: 30px;
+}
+#header{
+    padding-bottom: 0px!important;
+}
+/*google ads*/
+/*@media only screen and (max-width: 768px)*/
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3){
+
+.google-adz-img {
+    text-align: center;
+}
+ #header{
+    height: 40px !important;
+    padding-bottom: 0px!important;
+}
+
+#header .new-site-image {
+    display: none;
+}
+
+.content .entry-title {
+    font-size: 20px !important;
+    padding-top: 10px;
+}
+}
+.google-adz-img {
+    text-align: center;
+}
+#footer-bottom #back-to-top{
+    display: none!important;
+}
+
+
+
+#footer .one-half{
+    width:100%;
+}
+
+#footer .one-half p{
+    text-align: center;
+    padding:20px 20px 0px 20px;
+font-family: 'Overpass';
+
+}
+.content .wppsac-post-image-bg{
+    height:auto !important;
+}
+
+.breadcrumb-txt{
+        padding: 0 0 0 33px;
+}
+/* .entry {
+    padding: 10px 0 0 0!important;
+    } */
+
+  .content .status-publish .post-thumbnail img {
+    max-width: 95%;
+}
+
+.content .status-publish .entry-title {
+    line-height: 24px !important;
+}
+.content .status-publish .entry-title a {
+    font-size: 16px !important;
+}
+
+
+
+/*.box-content{
+    position: relative;
+    float: left;
+    width: 33.33333333%;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}*/
+
+/* #footer-widgets {
+    background-color: #4e98ed!important;
+} */
+
+#footer-widgets {
+    background-color: #385395!important;
+    
+}
+#footer a {
+    color: #ffff!important;
+}
+.widget>h3 {
+    font-size: 20px;
+    color: #ffff!important;
+}
+.widget{
+        color: #ffff!important;
+
+}
+.footer-search [role=search].search-form label input{
+    border-radius: 20px;
+}
+.footer-social {
+   font-size: 20px;
+    color: #ffff!important;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-weight: 400;
+}
+
+.left-side-widget.widget>h3 {
+    font-size: 20px;
+    color: #444!important;
+}
+.google-adz-img.widget>h3 {
+    font-size: 20px;
+    color: #444!important;
+}
+.alx-posts li, .alx-tab li, .widget_archive ul li, .widget_categories ul li, .widget_links ul li, .widget_meta ul li, .widget_nav_menu ul li a, .widget_pages ul li a, .widget_recent_comments ul li, .widget_recent_entries ul li, .widget_rss ul li {
+    padding: 10px 0;
+    border-bottom: 0px solid #e4e4e4;
+}
+.benefits-div.sek-section, .sek-column, .sek-module {
+    display: block;
+    align-items: center;
+}
+.status-publish .ea-header a.collapsed {
+    text-decoration: none;
+}
+
+.ea-header a:hover {
+    background: #4e98ed !important;
+    color: #ffff !important;
+
+}
+
+.ea-headera:active{
+bg-color: #000
+}
+
+
+
+#footer .heateor_sss_follow_icons_container h3.widget-title {
+    padding-bottom: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-size: 20px;
+    color: #ffff!important;
+}
+/*.archive.post-thumbnail img {
+    display: block;
+    width: 100%;
+    height: 160px!important;
+}*/
+.archive .post-thumbnail img {
+    display: block;
+    width: 100%;
+    height: 160px!important;
+}
+
+.post-colom{
+    width: 420px;
+}
+.sek-module.img-ads {
+    padding: 26px 0 0 0;
+}
